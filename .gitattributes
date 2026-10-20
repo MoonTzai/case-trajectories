@@ -1,3 +1,8 @@
+# Preserve exact source and standalone release bytes.
+# The manifest records the SHA-256 of actual workspace files, so Git must
+# not silently normalize CRLF to LF during add/checkout for any tracked file.
+* -text whitespace=cr-at-eol
+
 # Preserve documented, intentional whitespace in exact files.
 # The DUG interface strings use literal spaces after English labels.
 # README contains Markdown hard line breaks; LICENSE is verbatim upstream.
