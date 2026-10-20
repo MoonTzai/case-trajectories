@@ -1,0 +1,192 @@
+{
+  "name": "Case Trajectories",
+  "version": "0.1.0",
+  "titleZh": "立论星轨",
+  "license": "CC-BY-NC-SA-4.0",
+  "fontLicense": "OFL-1.1",
+  "standalone": {
+    "path": "index.html",
+    "bytes": 11011158,
+    "sha256": "0008e501f49adc4cb204a60d3b4ef1412239b7f80d4a0554f825885cdcb8f100"
+  },
+  "builtFiles": [
+    {
+      "path": "dist/index.html",
+      "sha256": "0008e501f49adc4cb204a60d3b4ef1412239b7f80d4a0554f825885cdcb8f100"
+    },
+    {
+      "path": "dist/立论星轨.html",
+      "sha256": "0008e501f49adc4cb204a60d3b4ef1412239b7f80d4a0554f825885cdcb8f100"
+    },
+    {
+      "path": "dist/出论工作台.html",
+      "sha256": "0008e501f49adc4cb204a60d3b4ef1412239b7f80d4a0554f825885cdcb8f100"
+    }
+  ],
+  "source": [
+    {
+      "path": ".gitattributes",
+      "sha256": "4f37f2a802451b6f276908117e35b1ea711e96b18334d96a240bc88c4f31de16"
+    },
+    {
+      "path": "FONT-LICENSE.txt",
+      "sha256": "9ff5bb567e1b92c801fc1069e5fbf992ff8efccacb9db94e5959a5b3ba9bb903"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "e66c269d4819aaab34b49ef5220c4ddab6756f21bb5180761a4eb8561f2b7bbd"
+    },
+    {
+      "path": "LICENSE-NOTICE.md",
+      "sha256": "c79181cdf0aac1ee7fe0d3fad9f0948aa36814a318b0978b805bfbeafc6bd491"
+    },
+    {
+      "path": "README.md",
+      "sha256": "14c8d92e6fa83bfa6fe33d7c53d3e6346baf277895aa9c4660d0c3b710a7cd9b"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.md",
+      "sha256": "6ed6e59a190bad80b064721097066ed50801e8428b4c3732839bde2309c6448a"
+    },
+    {
+      "path": "build-release.cjs",
+      "sha256": "e9ec77cf2725d0d404d4d85f338c1a8c51e08cb77b38b594beaf4331921f91fd"
+    },
+    {
+      "path": "build.mjs",
+      "sha256": "2fb7c7e7e58b44c6cd9e554cfb50cd5e2f210ec4497af1665d0a5268cdd7d08d"
+    },
+    {
+      "path": "package.json",
+      "sha256": "c473342bbec8d0476051474a567abe3b0d62637c70f5cf48ad6eb5708e115d0c"
+    },
+    {
+      "path": "src/app.js",
+      "sha256": "e00a34cba5600a3fea2bd64f227dfac6d8909a3489e5afadcab122d8c8807d29"
+    },
+    {
+      "path": "src/assets/SourceHanSerifSC-Heavy-brand.woff2",
+      "sha256": "ea4d7bf3890c95f4b6c38f7acb7645a356b8127cf01f467685e16201ee1c94a3"
+    },
+    {
+      "path": "src/assets/atlas-hero-dark.png",
+      "sha256": "cf16219197759c5b35d8f9b6fdc87b3935c32f03827c25c90a2464711d7ed019"
+    },
+    {
+      "path": "src/assets/atlas-hero-light.png",
+      "sha256": "fb72829016ec10ff916eab27a81a6ef436913609f8b20f2b143d69b96b341b14"
+    },
+    {
+      "path": "src/assets/atlas-page-dark.png",
+      "sha256": "32f9097540c32c0d6b8a17863a4974f5d40c23d14615a283502f967491ec4a99"
+    },
+    {
+      "path": "src/assets/atlas-page-light.png",
+      "sha256": "d01138684eb89157022b09f305024e7e5d345fb07db6d1da1647fd8031d2811a"
+    },
+    {
+      "path": "src/assets/coach-mascot.png",
+      "sha256": "1ba91a9a09640f25209a9f3f1f312d930d62eb5b3f24db08268f41422d6cf57a"
+    },
+    {
+      "path": "src/atlas-ideas.js",
+      "sha256": "1f3dca41c4a9815c33c32a2a36876e93eda182979f05162a83464279b8928c0f"
+    },
+    {
+      "path": "src/atlas-import.js",
+      "sha256": "34251b1b39345dc769021af3e412a63fb180fce5236e848771589fc886051dac"
+    },
+    {
+      "path": "src/brand.css",
+      "sha256": "8dc46491b21980a1d6a28468502dedf553785655cb7507ca56c0d51ee2637db9"
+    },
+    {
+      "path": "src/course-demo.js",
+      "sha256": "a63a9ea64f050f9b28905e4b03bb0a3f197e3c4a5db559ed22c3de6ef951aa68"
+    },
+    {
+      "path": "src/demo.js",
+      "sha256": "ec791d1a6f1412de9a3fdf33ed21eb3c48ab09ab85d34405e6c4eca3d0117be7"
+    },
+    {
+      "path": "src/diagnostics.js",
+      "sha256": "371efc53764f5424a6b48cb1951d9882d893895971ebb2fa2fa8f8f50c86cf04"
+    },
+    {
+      "path": "src/engine.js",
+      "sha256": "f06be171d54e64443babdc01dbaddfa07e8ee3875bc4e9a7a5b62f01d7d4a362"
+    },
+    {
+      "path": "src/export-io.js",
+      "sha256": "e99f9cc0d675e7606e1937fb57f7f2d55ec7c64a4f5088a2764a79363872be47"
+    },
+    {
+      "path": "src/framing-demo.js",
+      "sha256": "1a965996296df7e42fd2d9eb7a3cf37db22a7df6cb32dc0654c8ac0a4f2c2042"
+    },
+    {
+      "path": "src/history-ui.js",
+      "sha256": "8c1beabad839eff33691fa84813c68938ce057114694576bc0b9abeb526249ea"
+    },
+    {
+      "path": "src/history.js",
+      "sha256": "744271adb7e6d0e78cda850c76df058acb90e50bb1a32086a804631e59607f35"
+    },
+    {
+      "path": "src/i18n.js",
+      "sha256": "0d0e1bf2fb93c6f23bfc3f2b09436c519a54caec65ff23d45417c6c0a8c9d5be"
+    },
+    {
+      "path": "src/index.html",
+      "sha256": "5d2ad01c77451be9d67250a636be3e139fd3285d9567d8e5184a290036e8261f"
+    },
+    {
+      "path": "src/light-theme.css",
+      "sha256": "d11b29ef07b59a110077a377d90ab82b1ae92a2076de1e23c08d0772a32a9fb7"
+    },
+    {
+      "path": "src/navigation.js",
+      "sha256": "bc77b14486899d103db7ac4ef19d33d4d7ea3e14a6fb52d6e90436ab712a38a8"
+    },
+    {
+      "path": "src/providers.js",
+      "sha256": "53f773eb8c95c67d5420e5fb492ffa536d93aeb91c10eb7fd2b283b16aaa3331"
+    },
+    {
+      "path": "src/references.js",
+      "sha256": "cb21c74cf47fe47b53fa5b12b88aa0b9e506540687222080dc3b756edcaf564e"
+    },
+    {
+      "path": "src/report.js",
+      "sha256": "e2accd2868630e03ce8ed1b1d5edfea4f1199436f49a070b23cd1ba719b187f3"
+    },
+    {
+      "path": "src/settings.js",
+      "sha256": "030e51661e63a570a96390bead4569768b0da6aceaa343f669b613db9173e39e"
+    },
+    {
+      "path": "src/star-view.css",
+      "sha256": "5b6ea848045adbd563593b70be75f1ed58bfdb0e9ad9d696a93d404d565ed08a"
+    },
+    {
+      "path": "src/star-view.js",
+      "sha256": "faa174fe83ea4bfea4595fa2f63051f1bd8f0df65afd0d24eb5ecaf5d668bcf4"
+    },
+    {
+      "path": "src/style.css",
+      "sha256": "6af70c5a2a9e018d04e0771556e57f36bf1570e00dc8987c24ef5a63d24da0be"
+    },
+    {
+      "path": "src/telemetry.js",
+      "sha256": "443c99e5eec8967a215cff7ea212b5dfffaf55c940db20b7eefc3daf3c48ee66"
+    },
+    {
+      "path": "src/theme.js",
+      "sha256": "b693549ddd3bf57fda5505b68ee42410fad87a31f7e5cd258d9f033c7457ed08"
+    },
+    {
+      "path": "src/workflow.js",
+      "sha256": "e8c3a943be96fa02a812d0c41d8a8ef954c12920c36eb4cef2625a40da5b1b68"
+    }
+  ]
+}

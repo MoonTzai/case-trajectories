@@ -1,0 +1,156 @@
+/* Cognitive Landscape light palette and original local visual assets.
+   The existing dark theme remains the fallback style; only light is scoped here. */
+.theme-toggle.btn {
+  display:inline-flex;align-items:center;justify-content:center;gap:7px;
+  min-width:88px;height:36px;padding:0 12px;border-radius:999px;font-size:11px;
+}
+.theme-toggle svg {width:16px;height:16px;color:var(--teal-strong);flex:none}
+html[data-theme=light] {
+  --bg:#f4f7fb;--surface:#fff;--surface-raised:#eef2f8;--input:#fff;
+  --ink:#172033;--muted:#5f6b82;--line:#d5ddeb;
+  --teal:#455fc6;--teal-strong:#314cae;--teal-soft:#e9eef9;
+  --purple:#694aaf;--purple-soft:#f4f0fb;--amber:#7a5812;--amber-soft:#fff7e4;--danger:#a53c55;
+  --accent-argument:#276e8d;--accent-root:#455fc6;--accent-direction:#694aaf;--accent-framing:#934f73;
+  --shadow:0 8px 28px #263f6c07;
+  color-scheme:light;background:var(--bg);color:var(--ink);
+}
+html[data-theme=light] body {
+  background-color:var(--bg);
+  background-image:linear-gradient(180deg,#f4f7fb55,#f4f7fbc9 72%,#f4f7fb),url("__ATLAS_PAGE_LIGHT__");
+  background-position:center top;background-size:100% 1100px,auto 1100px;
+  background-repeat:no-repeat;background-attachment:fixed;
+}
+html[data-theme=light] body:before {display:none}
+html[data-theme=light] ::selection {background:#cdd8ff;color:#172033}
+html[data-theme=light] button:focus-visible,
+html[data-theme=light] input:focus-visible,
+html[data-theme=light] select:focus-visible,
+html[data-theme=light] textarea:focus-visible,
+html[data-theme=light] summary:focus-visible {outline-color:#455fc680}
+html[data-theme=light] .topbar {background:#f9fbfdd9;border-color:#d5ddeb99}
+html[data-theme=light] .intro {
+  min-height:196px;padding:32px;border-color:#cdd8e9;
+  background-color:#f4f7fb;
+  background-image:linear-gradient(90deg,#f4f7fbf7 0%,#f4f7fbe8 35%,#f4f7fb55 76%,#f4f7fb05),url("__ATLAS_HERO_LIGHT__");
+  background-size:cover;background-position:center,center 48%;
+  box-shadow:0 12px 36px #314c7b08;
+}
+html[data-theme=light] .intro:before {display:none}
+html[data-theme=light] .intro h1 {font-weight:600;letter-spacing:.2px}
+html[data-theme=light] .intro p {color:#536781;letter-spacing:.2px}
+html[data-theme=light] .intro-actions {align-self:flex-end}
+html[data-theme=light] .intro .demo-picker select {background:#ffffffc9}
+html[data-theme=light] .beta {background:#ffffffbf;border-color:#c6d2ef;color:var(--teal)}
+html[data-theme=light] .btn.primary,
+html[data-theme=light] .btn.dark {background:linear-gradient(125deg,#526fce,#455fc6);border-color:#455fc6;box-shadow:0 5px 14px #455fc619}
+html[data-theme=light] .btn.primary:hover:not(:disabled),
+html[data-theme=light] .btn.dark:hover:not(:disabled) {background:linear-gradient(125deg,#4965c6,#354eb3);border-color:#354eb3;box-shadow:0 6px 16px #455fc624}
+html[data-theme=light] .btn:disabled {box-shadow:none}
+html[data-theme=light] .motion-card:before {background:linear-gradient(90deg,transparent,#455fc645,transparent)}
+html[data-theme=light] .side-pill,
+html[data-theme=light] .mode-badge.live {border-color:#c7d2ef}
+html[data-theme=light] .mode-badge {border-color:#e7d7ad}
+html[data-theme=light] .view-switch {background:#eaf0f6b3;border-color:#d2dceb}
+html[data-theme=light] .view-switch button.selected {background:#fff;color:var(--teal-strong);box-shadow:0 1px 4px #273c6110,inset 0 0 0 1px #d4deee}
+html[data-theme=light] .workspace-help {color:var(--muted)}
+html[data-theme=light] .workflow-nav button {background:#ffffffd9;box-shadow:0 2px 6px #263f6c03}
+html[data-theme=light] .workflow-nav button:hover {background:#f9fbff}
+html[data-theme=light] .workflow-nav button:not(:last-child):after {background:transparent;color:#97a6c0}
+html[data-theme=light] .workflow-nav button.selected {background:linear-gradient(135deg,#fff,#edf2fc);box-shadow:inset 0 -3px var(--stage-accent),0 3px 12px #314c7b06}
+html[data-theme=light] .workflow-nav button.selected .step-index {color:white;box-shadow:0 0 0 3px #455fc60d}
+html[data-theme=light] .workflow-nav b {background:#f6f8fc}
+html[data-theme=light] .stage-controls {background:#ffffffeb;border-color:var(--line)}
+html[data-theme=light] .stage-controls select {border:1px solid #d1daeb;background:#f9fbff}
+html[data-theme=light] .argument-entry {background:#edf3fba8;border-color:#d0dfef}
+html[data-theme=light] .origin-summary {background:#eef3fd;border-color:#c7d5ef}
+html[data-theme=light] .node-card {background:var(--surface);box-shadow:0 3px 14px #314c7b04}
+html[data-theme=light] .node-card:hover {border-color:#a9bbd9;box-shadow:0 7px 22px #314c7b0b}
+html[data-theme=light] .node-card.is-selected {border-color:#a7b9df;box-shadow:inset 3px 0 0 #6079cd}
+html[data-theme=light] .node-card.is-related {background:#f8faff;border-color:#94aadd}
+html[data-theme=light] .node-description,
+html[data-theme=light] .direction-flow dd,
+html[data-theme=light] .framing-flow dd {color:#46536b}
+html[data-theme=light] .card-id {color:#667a9e}
+html[data-theme=light] .frequency {border-color:#d2ddf3;background:#f0f4fc}
+html[data-theme=light] .tag.root {border-color:#d3dcf1}
+html[data-theme=light] .tag.digest {background:#edf6fa;border-color:#c7dfe9}
+html[data-theme=light] .tag.reverse {background:#f4effb;border-color:#dcd0ee}
+html[data-theme=light] .tag.stale {border-color:#ead8ab}
+html[data-theme=light] .root-source-list button,
+html[data-theme=light] .tree-sources button,
+html[data-theme=light] .tree-arguments button {background:#f7f9fd;color:#46536b}
+html[data-theme=light] .node-theory {background:linear-gradient(140deg,#f8f5fd,#f3f3fb);border-color:#e2dbf0}
+html[data-theme=light] .theory-branch-label {border-color:#e0d7ee}
+html[data-theme=light] .theory-preview strong,
+html[data-theme=light] .theory-preview h5,
+html[data-theme=light] .theory-preview .text-btn {color:#694aaf}
+html[data-theme=light] .theory-preview p {color:#655b78}
+html[data-theme=light] .theory-preview .tag {background:#f0eafa;color:#694aaf;border-color:#ddcfef}
+html[data-theme=light] .direction-group-heading,
+html[data-theme=light] .framing-group-heading {background:linear-gradient(110deg,#eaf0fc,#f6f8fd);border-color:#cdd9ed}
+html[data-theme=light] .direction-group-cards {border-color:#cbd7ee}
+html[data-theme=light] .framing-group-cards {border-color:#dfc9d8}
+html[data-theme=light] .direction-flow>div,
+html[data-theme=light] .framing-flow>div {background:#f7f9fd;border-color:#e0e6f0}
+html[data-theme=light] .direction-flow>div:last-child {background:#edf2fc;border-color:#d1dcf2}
+html[data-theme=light] .direction-target {background:#f7f9fc}
+html[data-theme=light] .load-more {background:#ffffff70;border-color:#bfcde2}
+html[data-theme=light] .empty-state {background:#ffffffad;box-shadow:none}
+html[data-theme=light] .empty-icon {color:#9eafca}
+html[data-theme=light] .step-next .btn.primary {border-color:#455fc6;box-shadow:0 5px 16px #455fc621}
+html[data-theme=light] .step-next .btn.primary:focus-visible {outline-color:#455fc680}
+html[data-theme=light] .framings-column .stage-controls {border-color:var(--line)}
+html[data-theme=light] .node-card[data-kind=framing] {border-color:#d8d3e8}
+html[data-theme=light] .node-card[data-kind=framing] .node-title {color:var(--ink)}
+html[data-theme=light] .framing-flow>div:last-child {background:#f7f0f6;border-color:#e5d5e1}
+html[data-theme=light] .framing-flow>div:nth-child(4) {background:#edf3fc;border-left-color:#93add9}
+html[data-theme=light] .tree-root {background:linear-gradient(150deg,#eef3fd,#fff);border-color:#c2d0e8}
+html[data-theme=light] .tree-root .theory-preview,
+html[data-theme=light] .tree-leaf .node-theory {border-color:#ded4ee}
+html[data-theme=light] .tree-leaves {border-color:#c6d3eb}
+html[data-theme=light] .tree-link {color:#7a91b6}
+html[data-theme=light] .tree-framings {background:#f7f9fd;border-color:#cedaeb}
+html[data-theme=light] .branch-terminal {border-color:#daccef}
+html[data-theme=light] .run-status {background:#edf3fe;border-color:#c6d7f3}
+html[data-theme=light] .run-status .run-metrics {border-color:#d4dff2}
+html[data-theme=light] .spinner {border-color:#c9d6f5;border-top-color:#455fc6}
+html[data-theme=light] .error-banner {background:#fff1f4;border-color:#ecc6cf;color:var(--danger)}
+html[data-theme=light] .toast {color:var(--ink);background:#fff;border-color:#c8d5ed;box-shadow:0 10px 36px #263f6c1a}
+html[data-theme=light] dialog {box-shadow:0 24px 80px #273c6129}
+html[data-theme=light] dialog::backdrop,
+html[data-theme=light] .drawer-backdrop {background:#1f325a30;backdrop-filter:blur(5px)}
+html[data-theme=light] .inspector {box-shadow:-12px 0 50px #273c611a}
+html[data-theme=light] .detail-section p {color:#46536b}
+html[data-theme=light] .source-item {background:#f7f9fd}
+html[data-theme=light] .theory-panel {background:#f6f2fc;border-color:#ded3ee}
+html[data-theme=light] .theory-panel .explain,
+html[data-theme=light] .theory-item p,
+html[data-theme=light] .theory-note,
+html[data-theme=light] .preview-note {color:#655b78}
+html[data-theme=light] .theory-item {border-color:#e0d7ee}
+html[data-theme=light] .session-row:hover {border-color:#a6badd}
+html[data-theme=light] .session-row.selected {background:#edf2fd;border-color:#a6badd}
+html[data-theme=light] .narrative-plan {box-shadow:0 4px 18px #314c7b06}
+html[data-theme=light] .narrative-plan-heading {background:linear-gradient(110deg,#eaf0fc,#f6f8fd)}
+html[data-theme=light] .narrative-path>summary {background:#f7f9fd}
+html[data-theme=light] .narrative-sequence>section:last-child {background:#f0f4fc}
+html[data-theme=light] .narrative-sequence p,
+html[data-theme=light] .narrative-sequence blockquote,
+html[data-theme=light] .narrative-argument {color:#46536b}
+html[data-theme=light] .narrative-sequence details {background:#f6f8fc}
+html[data-theme=light] .new-project-import {background:#f7f9fd}
+html[data-theme=light] .project-atlas-preview {background:#edf3fd;border-color:#c6d5ef}
+html[data-theme=light] .field input[readonly] {background:#f3f6fb;color:#53637e}
+@media(max-width:1000px) {
+  html[data-theme=light] .intro {flex-direction:column;align-items:flex-start;gap:24px}
+  html[data-theme=light] .intro-actions {align-self:flex-start}
+}
+@media(max-width:520px) {
+  .top-actions{flex-wrap:wrap;justify-content:flex-end}
+  .theme-toggle.btn{min-width:72px;height:32px;padding:0 10px;font-size:11px}
+  html[data-theme=light] .intro {min-height:0;padding:26px 20px;gap:18px;background-position:center,60% center}
+  html[data-theme=light] .intro h1 {font-size:23px;line-height:1.65}
+  html[data-theme=light] .intro p {font-size:13px;line-height:1.85}
+  html[data-theme=light] .intro-actions {gap:8px;flex-wrap:wrap;margin-top:0}
+}
+@media(prefers-reduced-motion:reduce){button{transition:none}}

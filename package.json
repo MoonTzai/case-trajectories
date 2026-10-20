@@ -1,0 +1,14 @@
+{
+  "name": "case-trajectories",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Case Trajectories (立论星轨) — a Structural Clash case construction assistant",
+  "license": "CC-BY-NC-SA-4.0",
+  "scripts": {
+    "build": "node build-release.cjs",
+    "build:internal": "node build.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

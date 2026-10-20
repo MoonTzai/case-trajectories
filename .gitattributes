@@ -1,0 +1,7 @@
+# Preserve documented, intentional whitespace in exact files.
+# The DUG interface strings use literal spaces after English labels.
+# README contains Markdown hard line breaks; LICENSE is verbatim upstream.
+README.md whitespace=-blank-at-eol
+LICENSE whitespace=-blank-at-eof
+index.html whitespace=-blank-at-eol
+src/i18n.js whitespace=-blank-at-eol
